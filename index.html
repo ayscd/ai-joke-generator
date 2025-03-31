@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SheCodes</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <title>JOKER 🤡</title>
     <meta charset="UTF-8" />
 
     <link href="src/styles.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
-    <button>Tell me joke</button>
-    <div id="joke"><div>
+    <div class="wrapper">
+        <header>
+            <h1 class="header">WANNA HAVE SOME FUN?</h1>
+            <p class="disclaimer">*all jokes are generated in PT-BR, inspired by brazillian memes</p>
+        </header>
+        <main>
+            <button class="button" id="button">Tell me a joke!</button>
+            <div class="joke" id="joke"><div>
+        </main>
+        <hr>
+        <footer>
+            This Joker Project was built by <a class="git-profile" href="https://github.com/ayscd">Ayeska</a>, is linked to <a class="git-project" href="https://github.com/ayscd/ai-joke-generator">Git Hub</a> and hosted on <a class="host-link" href="https://ai-joker.netlify.app//">Netlify</a>.
+        </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
