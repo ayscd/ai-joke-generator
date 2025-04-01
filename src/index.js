@@ -1,9 +1,13 @@
 function displayJoke(result) {
+    let jokeWrapper = document.querySelector("#joke");
+    jokeWrapper.classList.add("hidden");
+
     new Typewriter('#joke', {
         strings: result.data.answer,
         autoStart: true,
         delay: 45,
         pauseFor: 1000,
+        cursor: "",
       });
 }
 
