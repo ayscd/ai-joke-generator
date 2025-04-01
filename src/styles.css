@@ -1,0 +1,66 @@
+body {
+    color: rgb(34, 12, 16);
+    font-family:'Genova', sans-serif;
+    margin: 120px auto;
+    text-align: center;
+}
+
+hr {
+    color: rgba(212, 212, 216, 0.4);
+    margin-top: 20px;
+}
+
+footer {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    color: rgb(81, 75, 35);
+    padding: 30px 0px 10px 0px;
+}
+
+.header {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.disclaimer {
+    margin: 10px 0;
+    color: rgba(34, 12, 16, 0.5);
+    font-size: 12px;
+}
+
+.button {
+    margin: 50px 0 20px 0;
+    padding: 10px 20px;
+    background-color: rgb(34, 12, 16);
+    color: rgb(247, 248, 246);
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: rgba(34, 12, 16, 0.9);
+}
+
+.joke {
+    padding: 20px 0;
+    background-color: rgba(81, 75, 35, 0.1);
+}
+
+.questao, .resposta {
+    padding: 20px 0 0 0;
+}
+
+.git-profile, .git-project, .host-link {
+    color: rgb(81, 75, 35);
+}
+
+.git-profile:hover, .git-project:hover, .host-link:hover {
+     color: rgba(29, 29, 27, 0.4);
+}
+
+.git-profile:visited, .git-project:visited, .host-link:visited {
+       color: rgba(27, 29, 27, 0.4);
+}
+
+.git-profile:active, .git-project:active, .host-link:active {
+       color: rgba(29, 29, 27, 0.4);
+}
